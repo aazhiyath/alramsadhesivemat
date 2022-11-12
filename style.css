@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p{
+    color: rgb(85, 80, 80);
+    font-size: 15px;
+}
+span{
+    font-weight: 700;
+    color: black;
+}
+header{display: flex;
+    height: 90px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+header img{
+    width: 600px;
+}
+nav{
+    height: 50px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+nav ul li{
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 10PX;
+}
+nav ul a {
+    text-decoration: none;
+    color: wheat;
+    transition:0.5s;
+}
+nav ul a:hover{
+    color: red;
+}
+.conainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+}
+
+.conainer .hero{
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    background-image: url(./julfar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+
+.products .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .row a{
+    text-decoration: none;
+   
+   
+}
+.products .row .col{
+   
+    width: 30%;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 15px;
+   height: 300px;
+   border-radius: 2px;
+   transition: 0.5s;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.products .row .col:hover{
+
+    box-shadow: none;
+}
+.products .row .col img{
+    width: 100%;
+    
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+.container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+   
+.container .row .col-1 {
+    height: 75%;
+    margin-top: 30px;
+    margin-left: 150px;
+    
+}
+.container .row .col-1 img{
+    width: 400px;
+}
+.container .row .col-2 {
+    height: 75%;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.tilead{text-align: center;}
+.tilead .row{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tilead .row a .col{
+    height: 50%;
+    flex-basis: 20%;
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.9s;
+    margin: 10px;
+    padding: 20px;
+}
+.tilead .row .col img{
+    width: 100%;
+}
+.tilead .row .col h3{
+    margin-top: 15px;
+    line-height: 20PX;
+}
+.tilead .row a{
+    text-decoration: none;
+}
+.tilead .row .col:hover{
+    transform: translateY(-10px);
+ }
+
+ footer{
+    margin-top: 50px;
+    background-color: rgb(14, 13, 13);
+    height: 300px;
+ }
+ .footer_row{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+ }
+ .footer_row .footer_col p{
+    color: #fff;
+ }
+ .footer_row .footer_col img{
+    width: 400px;
+ }
+ .footer_row .footer_col{
+    padding-right: 10px;
+    margin-right: 15px;
+    border-right: 1px solid rgb(87, 86, 84);
+    height: 200px;
+ }
