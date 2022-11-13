@@ -119,7 +119,7 @@ nav ul a:hover{
     
 }
 .container .row .col-1 img{
-    width: 400px;
+    width: 100%;
 }
 .container .row .col-2 {
     height: 75%;
@@ -184,14 +184,12 @@ nav ul a:hover{
 
     header{display: flex;
         height: 120px;
-        align-items: center;
         font-size: 10px;
-        font-weight: 400;
-        margin-right: 25px;
+        margin: auto;
         flex-wrap: wrap;
     }
     header img{
-        width: 400px;
+        width: 350px;
     }
     Header p{
         margin: auto;
@@ -222,14 +220,13 @@ nav ul a:hover{
     }
     .container .row .col-1 {
         height: 75%;
-        margin-top: 30px;
-        margin-left: auto;
+        margin: auto;
+       
         
     }
     .container .row .col-2 {
         height: 75%;
-        
-        margin: 10px;
+        margin: 20PX;
 
     }
     .tilead .row{
@@ -242,6 +239,15 @@ nav ul a:hover{
         flex-direction: row;
         margin: 15px;
     }
-
+    nav{
+        height: 30px;
+       
+    }
+    nav ul li{
+        margin-right: auto;
+        font-weight: bold;
+        margin-top: 8PX;
+        font-size: 10PX;
+    }
     }
     
