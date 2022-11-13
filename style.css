@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+    position: relative;
 }
 
 p{
@@ -143,7 +143,7 @@ nav ul a:hover{
     margin: 10px;
     padding: 20px;
 }
-.tilead .row .col img{
+.tilead .row a .col img{
     width: 100%;
 }
 .tilead .row .col h3{
@@ -167,6 +167,7 @@ nav ul a:hover{
     display: flex;
     justify-content: space-around;
     color: #fff;
+    background-color: rgb(14, 13, 13);
  }
  .footer_row .footer_col p{
     color: #fff;
@@ -182,8 +183,11 @@ nav ul a:hover{
  }
 
  .whtsup{
-    width: 300px;
-    position: absolute;
+    width: 150px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 2;
  }
 
  .whtsup a img{
@@ -214,7 +218,7 @@ nav ul a:hover{
     .products .row .col{
    
         width: 100%;
-       margin: 0;
+        margin: 0;
         overflow: hidden;
       
        height: 300px;
@@ -258,5 +262,14 @@ nav ul a:hover{
         margin-top: 8PX;
         font-size: 10PX;
     }
+    .footer_row{
+       
+        display: block;
+        text-align: center;
+     }
+     .whtsup{
+        width: 100px;
+        
+     }
     }
     
