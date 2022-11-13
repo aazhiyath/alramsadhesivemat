@@ -133,7 +133,7 @@ nav ul a:hover{
     justify-content: center;
     margin-top: 20px;
 }
-.tilead .row a .col{
+.tilead .row .col{
     height: 50%;
     flex-basis: 20%;
     text-align: center;
@@ -180,3 +180,68 @@ nav ul a:hover{
     border-right: 1px solid rgb(87, 86, 84);
     height: 200px;
  }
+ @media only screen and (max-width: 600px){
+
+    header{display: flex;
+        height: 120px;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 25px;
+        flex-wrap: wrap;
+    }
+    header img{
+        width: 400px;
+    }
+    Header p{
+        margin: auto;
+        align-items: center;
+        font-size: 10px;
+    }
+   
+ 
+    .products .row{
+        display: block;
+       margin: 0;
+    }
+    .products .row .col{
+   
+        width: 100%;
+       margin: 0;
+        overflow: hidden;
+      
+       height: 300px;
+       border-radius: 2px;
+       transition: 0.5s;
+       box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+    }
+    .container .row{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .row .col-1 {
+        height: 75%;
+        margin-top: 30px;
+        margin-left: auto;
+        
+    }
+    .container .row .col-2 {
+        height: 75%;
+        
+        margin: 10px;
+
+    }
+    .tilead .row{
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tilead .row a .col{
+      
+        flex-direction: row;
+        margin: 15px;
+    }
+
+    }
+    
