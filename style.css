@@ -249,8 +249,8 @@ nav ul a:hover{
     }
     .container .row .col-2 {
         height: 75%;
-        margin: 20PX;
-
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .tilead .row{
         display: block;
