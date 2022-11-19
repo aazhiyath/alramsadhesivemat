@@ -99,10 +99,7 @@ nav ul a:hover{
     
     }
     .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+       
     }
     
 .container .row{
@@ -115,17 +112,17 @@ nav ul a:hover{
 .container .row .col-1 {
     height: 75%;
     margin:0px;
-   width: 40%;
+   width: 80%;
     
 }
 .container .row .col-1 img{
-    width: 400px;
+    width: 100%;
     margin-left: 50px;
 }
 .container .row .col-2 {
     height: 75%;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 50px;
 }
 .tilead{text-align: center;}
@@ -162,16 +159,15 @@ nav ul a:hover{
  footer{
     margin-top: 50px;
     background-color: rgb(14, 13, 13);
-    height: 300px;
+    height: 420px;
    
  }
  .footer_row{
-    
     padding-top: 50px;
-   display: flex;
-   
-  
+    display: flex;
+    height: 420px;
     color: #fff;
+    background-color: rgb(14, 13, 13);
  }
  .footer_row .footer_col p{
     color: #fff;
@@ -181,9 +177,12 @@ nav ul a:hover{
  }
  .footer_row .footer_col{
     margin: 0;
-    border-right: 1px solid rgb(107, 128, 221);
-    height: 200px;
+    width: 45%;
+    height: 300px;
+    display: grid;
     background-color: rgb(14, 13, 13);
+    align-items: center;
+    justify-content: center;
  }
 
  .whtsup{
@@ -244,7 +243,7 @@ nav ul a:hover{
     .container .row .col-1 {
         height: 75%;
         margin: 0;
-       
+       width: 80%;
         
     }
     .container .row .col-2 {
@@ -273,9 +272,15 @@ nav ul a:hover{
         font-size: 10PX;
     }
     .footer_row{
-       
+       height: 685px;
         display: block;
-        text-align: center;
+        align-content: center;
+        justify-content: center;
+     }
+     .footer_row .footer_col{
+        
+        width: 90%;
+       
      }
      .whtsup{
         width: 100px;
