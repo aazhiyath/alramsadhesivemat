@@ -56,7 +56,37 @@ nav ul a:hover{
     height: 100vh;
     background: #222;
 }
+.caption{
+    position: absolute;
+    color: #fff;
+    top: 50px;
+    left: 220px;
+   
+}
+.caption h1{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    transition: 0.5s;
+}
+.caption h3{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    transition: 1s;
+}
+
+.caption h1:hover{
+    -webkit-text-stroke: 2px rgba(250, 7, 7, 0.89);
+    color: transparent;
+}
+.caption h3:hover{
+    -webkit-text-stroke: 1px rgba(250, 7, 7, 0.89);
+    color: transparent;
+}
 .vedio_container{
+    position: relative;
     width: 100%;
     height: 90%;
 }
@@ -254,7 +284,7 @@ video{
     .products .row .col{
    
         width: 100%;
-        margin: 0;
+        margin: 10px;
         overflow: hidden;
       
        height: 300px;
@@ -272,6 +302,9 @@ video{
         margin: 0;
        width: 80%;
         
+    }
+    #product h1{
+        font-size: 25;
     }
     .container .row .col-2 {
         height: 75%;
@@ -318,7 +351,21 @@ video{
      video{
     
         height: auto;
-        
     }
+    .caption {
+        position: absolute;
+        color: #fff;
+        top: 5px;
+        left: 198px;
+      }
+    .caption h3 {
+        
+        font-size: 8px;
+      }
+      .caption h1 {
+    
+        font-size: 25px;
+       
+      }
     }
     
