@@ -49,22 +49,24 @@ nav ul a:hover{
     color: red;
 }
 .conainer{
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     background: #222;
 }
-
-.conainer .hero{
-    align-items: center;
+.vedio_container{
     width: 100%;
-    height: 95vh;
-    background-image: url(./julfar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 90%;
 }
+
+video{
+    width: 100%;
+    height: 100%;
+    
+}
+
    
 
 .products .row{
@@ -98,9 +100,7 @@ nav ul a:hover{
     width: 100%;
     
     }
-    .container{
-       
-    }
+   
     
 .container .row{
     display: flex;
@@ -159,13 +159,13 @@ nav ul a:hover{
  footer{
     margin-top: 50px;
     background-color: rgb(14, 13, 13);
-    height: 420px;
+    height: 520px;
    
  }
  .footer_row{
     padding-top: 50px;
     display: flex;
-    height: 420px;
+    height: 520px;
     color: #fff;
     background-color: rgb(14, 13, 13);
  }
@@ -173,14 +173,14 @@ nav ul a:hover{
     color: #fff;
  }
  .footer_row .footer_col img{
-    width: 400px;
+    width: 500px;
  }
  .footer_row .footer_col{
     margin: 0;
-    width: 45%;
-    height: 300px;
+    width: 50%;
+    height: 500px;
     display: grid;
-    background-color: rgb(14, 13, 13);
+   
     align-items: center;
     justify-content: center;
  }
@@ -202,6 +202,29 @@ nav ul a:hover{
  form div{
     margin: 20px;
  }
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border: none;
+   
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
  @media only screen and (max-width: 600px){
 
     header{display: flex;
@@ -218,7 +241,11 @@ nav ul a:hover{
         align-items: center;
         font-size: 10px;
     }
-   
+    .conainer {
+       
+        height: 36vh;
+       
+      }
  
     .products .row{
         display: block;
@@ -248,8 +275,8 @@ nav ul a:hover{
     }
     .container .row .col-2 {
         height: 75%;
-        padding-left: 25px;
-        padding-right: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .tilead .row{
         display: block;
@@ -272,7 +299,7 @@ nav ul a:hover{
         font-size: 10PX;
     }
     .footer_row{
-       height: 685px;
+       height: 1000px;
         display: block;
         align-content: center;
         justify-content: center;
@@ -282,9 +309,16 @@ nav ul a:hover{
         width: 90%;
        
      }
+     .footer_row .footer_col img {
+        width: 303px;}
      .whtsup{
         width: 100px;
         
      }
+     video{
+    
+        height: auto;
+        
+    }
     }
     
