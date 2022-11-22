@@ -60,7 +60,7 @@ nav ul a:hover{
     position: absolute;
     color: #fff;
     top: 50px;
-    left: 220px;
+    left: 50px;
    
 }
 .caption h1{
@@ -68,23 +68,42 @@ nav ul a:hover{
     padding: 0;
     font-size: 80px;
     transition: 0.5s;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px, 0;
+    animation: backcolor 5s linear infinite alternate;
 }
 .caption h3{
     margin: 0;
     padding: 0;
     font-size: 30px;
     text-align: center;
-    transition: 1s;
+    transition: 2s;
+    /*-webkit-text-stroke: 1px rgba(250, 7, 7, 0.89);*/
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px, 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0,0;
+    }
 }
 
-.caption h1:hover{
+/*.caption h1:hover{
     -webkit-text-stroke: 2px rgba(250, 7, 7, 0.89);
     color: transparent;
 }
 .caption h3:hover{
     -webkit-text-stroke: 1px rgba(250, 7, 7, 0.89);
     color: transparent;
-}
+}*/
 .vedio_container{
     position: relative;
     width: 100%;
@@ -94,7 +113,7 @@ nav ul a:hover{
 video{
     width: 100%;
     height: 100%;
-    
+    object-fit: cover;
 }
 
    
@@ -284,7 +303,7 @@ video{
     .products .row .col{
    
         width: 100%;
-        margin: 10px;
+        margin: 0px;
         overflow: hidden;
       
        height: 300px;
