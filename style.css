@@ -218,19 +218,24 @@ video{
     color: #fff;
     background-color: rgb(14, 13, 13);
  }
- .footer_row .footer_col p{
+ .footer_row .footer_col p,h3{
     color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
  }
  .footer_row .footer_col img{
-    width: 500px;
+    width: 250px;
+ }
+ .footer_row .footer_col span{
+    color: #fff;
+    
  }
  .footer_row .footer_col{
     margin: 0;
     width: 50%;
     height: 500px;
     display: grid;
-   
-    align-items: center;
     justify-content: center;
  }
 
