@@ -121,6 +121,12 @@ video{
     display: flex;
     margin-top: 50px;
 }
+.about-col h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 .about img{
     width: 100%;
 }
@@ -129,10 +135,13 @@ video{
     margin-left:20px;
     margin-right:20px;
 }
-.products{
+#product{
     margin-top: 50px;
 }
-
+#product h1{
+    text-align: center;
+    font-size: 30px;
+}
 .products .row{
     display: flex;
     justify-content: center;
@@ -317,13 +326,16 @@ video{
        justify-content: center;
        margin-left: 20px;
     }
+    .about-col h1{
+        font-size: 20px;
+    }
     .conainer {
        
         height: 36vh;
        
       }
-      .products {
-        margin-top: 381px;
+      #product {
+        margin-top: 450px;
       }
  
     .products .row{
@@ -353,7 +365,7 @@ video{
         
     }
     #product h1{
-        font-size: 25;
+        font-size: 20;
     }
     .container .row .col-2 {
         height: 75%;
