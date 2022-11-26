@@ -321,10 +321,7 @@ video{
     }
     .about-col{
         width: 90%;
-        margin: 0;
-       align-items: center;
-       justify-content: center;
-       margin-left: 20px;
+        margin: 20PX;
     }
     .about-col h1{
         font-size: 20px;
@@ -365,7 +362,7 @@ video{
         
     }
     #product h1{
-        font-size: 20;
+        font-size: 20PX;
     }
     .container .row .col-2 {
         height: 75%;
