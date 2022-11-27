@@ -55,6 +55,7 @@ nav ul a:hover{
     width: 100%;
     height: 100vh;
     background: #222;
+    margin-bottom: 20px;
 }
 .caption{
     position: absolute;
@@ -116,10 +117,14 @@ video{
     object-fit: cover;
 }
 .about{
-    height: 70vh;
+
+    height: 60vh;
     width: 100%;
     display: flex;
     margin-top: 50px;
+    padding-top: 50px;
+   align-items: center;
+   justify-content: space-around;
 }
 .about-col h1{
     font-size: 30px;
@@ -131,12 +136,12 @@ video{
     width: 100%;
 }
 .about-col{
-    width: 50%;
-    margin-left:20px;
-    margin-right:20px;
+    width: 45%;
+   padding: 0px;
 }
 #product{
     margin-top: 50px;
+    padding: 20px;
 }
 #product h1{
     text-align: center;
@@ -317,23 +322,28 @@ video{
     }
     .about{
         display: block;
-     
+        padding: 0;
+        height: 107vh;
+       
+        margin-right: 0;
     }
     .about-col{
         width: 90%;
-        margin: 20PX;
+        padding: 0;
+       margin-left: 20px;
     }
     .about-col h1{
         font-size: 20px;
     }
     .conainer {
        
-        height: 36vh;
+        height: 30vh;
        
       }
-      #product {
-        margin-top: 450px;
-      }
+      #product{
+        margin-top: 0px;
+        padding: 0px;
+    }
  
     .products .row{
         display: block;
@@ -341,8 +351,8 @@ video{
     }
     .products .row .col{
    
-        width: 100%;
-        margin: 0px;
+        width: 90%;
+        margin-left: 20px;
         overflow: hidden;
       
        height: 300px;
