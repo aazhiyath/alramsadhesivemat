@@ -28,17 +28,20 @@ header img{
 nav{
     height: 50px;
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 nav ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
    
 }
 nav ul li{
     margin-right: 10px;
     font-weight: bold;
-    margin-top: 10PX;
+   
 }
 nav ul a {
     text-decoration: none;
@@ -56,6 +59,7 @@ nav ul a:hover{
     height: 100vh;
     background: #222;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 .caption{
     position: absolute;
@@ -396,8 +400,8 @@ video{
     nav ul li{
         margin-right: auto;
         font-weight: bold;
-        margin-top: 8PX;
-        font-size: 10PX;
+        margin-top: -8px;
+        font-size: 12px;
     }
     .footer_row{
        height: 1000px;
