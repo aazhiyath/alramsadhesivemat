@@ -15,12 +15,16 @@ span{
     color: black;
 }
 header{display: flex;
-    height: 90px;
+    height: 92px;
     align-items: center;
     font-size: 18px;
     font-weight: 400;
     margin-right: 25px;
     flex-wrap: wrap;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 header img{
     width: 600px;
@@ -28,7 +32,7 @@ header img{
 nav{
     height: 50px;
     background-color: black;
-    position: fixed;
+   
     width: 100%;
 }
 nav ul{
@@ -60,6 +64,7 @@ nav ul a:hover{
     background: #222;
     margin-bottom: 20px;
     margin-top: 15px;
+    padding-top: 120px;
 }
 .caption{
     position: absolute;
@@ -150,6 +155,7 @@ video{
 #product h1{
     text-align: center;
     font-size: 30px;
+    background-color: transparent;
 }
 .products .row{
     display: flex;
@@ -160,7 +166,7 @@ video{
 
 .products .row a{
     text-decoration: none;
-   
+    color:  red;
    
 }
 .products .row .col{
@@ -173,15 +179,20 @@ video{
    border-radius: 2px;
    transition: 0.5s;
    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+   border-radius: 5%;
+   
 }
-
+.products .row .col h3{
+   
+}
 .products .row .col:hover{
 
     box-shadow: none;
 }
 .products .row .col img{
     width: 100%;
-    
+   
+   
     }
    
     
@@ -341,7 +352,7 @@ video{
     }
     .conainer {
        
-        height: 30vh;
+        height: 33vh;
        
       }
       #product{
