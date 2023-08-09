@@ -40,7 +40,7 @@ nav ul{
     list-style: none;
     justify-content: space-between;
     align-items: center;
-   
+   margin-top: 10PX;
 }
 nav ul li{
     margin-right: 10px;
@@ -391,7 +391,7 @@ video{
     .about{
         display: block;
         padding: 0;
-        height: 160vh;
+        height: 220vh;
        
         margin-right: 0;
     }
